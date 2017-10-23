@@ -55,7 +55,7 @@ SpotifyStream::SpotifyStream(PcmListener* pcmListener, const StreamUri& uri) : P
 	if (!onstop.empty())
 		params_ += " --onstop \"" + onstop + "\"";
 
-	if (uri_.query.find("username") != uri_.query.end())
+  if (uri_.query.find("username") != uri_.query.end())
 		uri_.query["username"] = "xxx";
 	if (uri_.query.find("password") != uri_.query.end())
 		uri_.query["password"] = "xxx";
