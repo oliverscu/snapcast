@@ -20,6 +20,7 @@ this creates a directory `snapcast`, in the following referred to as `<snapcast 
 Next clone the external submodules:
 
     $ cd <snapcast dir>/externals
+    $ cd ..
     $ git submodule update --init --recursive
 
 
